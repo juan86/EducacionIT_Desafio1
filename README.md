@@ -2,8 +2,8 @@
 
 ## Ejercicio 1
 1. Crear :
-   o. Un Nuevo repositorio.
-   o. El README.md.
+   - Un Nuevo repositorio.
+   - El README.md.
 2. Realizar el primer commit.
 
 ## Ejercicio 2
