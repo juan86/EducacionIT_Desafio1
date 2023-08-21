@@ -1,6 +1,6 @@
 # Desafio 2
 
-##El objetivo es repasar ciclos, dobles con vectores, máximo, mínimo, promedio.
+## El objetivo es repasar ciclos, dobles con vectores, máximo, mínimo, promedio.
 
 La escuela primaria xyz solicita el desarrollo de una aplicación para poder llevar el
 control de notas para cada alumno.
