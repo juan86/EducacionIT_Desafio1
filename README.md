@@ -1,26 +1,12 @@
-# Desafio 2
+# Desafio 1
 
-## El objetivo es repasar ciclos, dobles con vectores, máximo, mínimo, promedio.
+## El objetivo es trabajar la sintaxis de java, if/else y funciones, con validaciones sobre fechas.
 
-La escuela primaria xyz solicita el desarrollo de una aplicación para poder llevar el
-control de notas para cada alumno.
+1. Ingresar una fecha por teclado: dd/mm/yyyy (dd int, mm int, yyyy int)
 
-El programa solicitará el ingreso y la cantidad de alumnos a procesar.
--Para cada alumno se deberá ingresar los siguientes datos:
+    validar que dd >=1 && <=31 TENIENDO EN CUENTA EL MES
+    validar que mes >=1 && <=12
+    validar que año >=1900 && <= 2099
 
-- nombre (string)
-- apellido (string)
-- número de examen
-- nota que obtuvo el alumno (numérico >=0 <=10)
-  
-##Al finalizar la carga de datos, se procederá a listar la siguiente información:
-
-1. alumno/s con la calificación más alta
-2. alumno/s con la calificación más baja
-3. alumnos que promocionan, aquellos que obtuvieron un promedio >= 7
-4. alumnos que deben recursar la materia, aquellos que obtuvieron un
-promedio < 7"
-
-
-
-prueba del deasfio 1
+**Nota:** Ojo, si el año es bisiesto, febrero tiene 29 días. Informar por consola si la fecha
+es correcta.
