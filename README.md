@@ -1,11 +1,12 @@
 # Desafio 1
 
-## Ejercicio 1
-1. Crear :
-   - Un Nuevo repositorio.
-   - El README.md.
-2. Realizar el primer commit.
+## El objetivo es trabajar la sintaxis de java, if/else y funciones, con validaciones sobre fechas.
 
-## Ejercicio 2
+1. Ingresar una fecha por teclado: dd/mm/yyyy (dd int, mm int, yyyy int)
 
-**Realizar cambios al archivo README (modificado/borrado).**
+    validar que dd >=1 && <=31 TENIENDO EN CUENTA EL MES
+    validar que mes >=1 && <=12
+    validar que año >=1900 && <= 2099
+
+**Nota:** Ojo, si el año es bisiesto, febrero tiene 29 días. Informar por consola si la fecha
+es correcta.
