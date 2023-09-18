@@ -21,3 +21,6 @@ El programa solicitará el ingreso y la cantidad de alumnos a procesar.
 4. alumnos que deben recursar la materia, aquellos que obtuvieron un
 promedio < 7"
 
+
+
+prueba del deasfio 1
