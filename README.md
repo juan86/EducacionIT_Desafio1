@@ -1,22 +1,18 @@
-# Desafio 3
+# Desafio 4
 
-## El objetivo es asimilar los conceptos de clases y objetos, interfaces y clases abstractas.
+## El objetivo es crear una clase CollectionCustom<T>.
 
-Una torre de control tiene la responsabilidad de gestionar el aterrizaje de objetos que
-sobrevuelan el espacio aéreo.
+- La clase tiene un atributo T[] “un array de T” en el cual se deben guardar los tipos una
+vez creada la implementación.
+- debe tener los métodos
+    * size():int
+    * addFirst(T): void
+    * addLast(T):void
+    * add(T):void
+    * remove(T): T remueve el primer elemento indicado y lo retorna.
+    * removeAll(T): void remueve todos los elementos.
+    * boolean empty(): indica si la colección está vacía.
+    * Crear la clase Main para probar cada método.
 
-Para esto, dispone de un sistema que permite que los Voladores sean capaces de aterrizar en la
-pista 1.
-
-Pero solamente permite que ciertos Voladores puedan realizar esta acción, por este motivo la
-torre tiene un contrato que deben cumplir. Esto permite que no todo objeto aterrice.
-
-Aquellos que son voladores, pero NO cumplan con este contrato, debe pedir autorización
-adicional y dependerá de la confirmación de un operario, quien dirá SI o No.
-
-Si el operador acepta podrán aterrizar en la pista 2, de lo contrario se informará que no es posible
-aterrizar.
-
-Nota: Para esto desarrollar las clases e interfaces que considere necesario.
--Cargar los objetos en una lista y recorrer cada elemento identificando quien pueden y quienes
-no descender.
+**Nota:** No usar Collection (Set, List, Collection etc) vistas en clase, deben trabajar con
+array de T, uds deben implementar la lógica.
