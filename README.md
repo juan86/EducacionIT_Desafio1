@@ -1,12 +1,22 @@
-# Desafio 1
+# Desafio 3
 
-## El objetivo es trabajar la sintaxis de java, if/else y funciones, con validaciones sobre fechas.
+## El objetivo es asimilar los conceptos de clases y objetos, interfaces y clases abstractas.
 
-1. Ingresar una fecha por teclado: dd/mm/yyyy (dd int, mm int, yyyy int)
+Una torre de control tiene la responsabilidad de gestionar el aterrizaje de objetos que
+sobrevuelan el espacio aéreo.
 
-    validar que dd >=1 && <=31 TENIENDO EN CUENTA EL MES
-    validar que mes >=1 && <=12
-    validar que año >=1900 && <= 2099
+Para esto, dispone de un sistema que permite que los Voladores sean capaces de aterrizar en la
+pista 1.
 
-**Nota:** Ojo, si el año es bisiesto, febrero tiene 29 días. Informar por consola si la fecha
-es correcta.
+Pero solamente permite que ciertos Voladores puedan realizar esta acción, por este motivo la
+torre tiene un contrato que deben cumplir. Esto permite que no todo objeto aterrice.
+
+Aquellos que son voladores, pero NO cumplan con este contrato, debe pedir autorización
+adicional y dependerá de la confirmación de un operario, quien dirá SI o No.
+
+Si el operador acepta podrán aterrizar en la pista 2, de lo contrario se informará que no es posible
+aterrizar.
+
+Nota: Para esto desarrollar las clases e interfaces que considere necesario.
+-Cargar los objetos en una lista y recorrer cada elemento identificando quien pueden y quienes
+no descender.
